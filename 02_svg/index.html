@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>SVG</title>
+</head>
+<body class="page">
+  <main>
+    <div class="container container__top">
+      <h1 class="title">Как это работает?</h1>
+      <ul class="cards">
+        <li class="card">
+          <div class="card__img">
+            <svg width="375" height="288">
+              <use xlink:href="simbol.svg#coffee"></use>
+            </svg>
+          </div>
+          <div class="card__descr">
+            <p class="card__title">Утренний <span class="card__title-accent">кофе</span></p>
+            <p class="card__caption">
+              Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее просыпаемся.
+            </p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__img">
+            <svg width="375" height="288">
+              <use xlink:href="simbol.svg#meditation"></use>
+            </svg>
+          </div>
+          <div class="card__descr">
+            <p class="card__title">Час <span class="card__title-accent">медитации</span></p>
+            <p class="card__caption">
+              После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.
+            </p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__img">
+            <svg width="375" height="288">
+              <use xlink:href="simbol.svg#forward"></use>
+            </svg>
+          </div>
+          <div class="card__descr">
+            <p class="card__title">Вперёд к <span class="card__title-accent">свершениям!</span></p>
+            <p class="card__caption">
+              Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="container container__bottom">
+      <div class="integration">
+        <div class="integration__left">
+          <h2 class="integration__title">
+            Интеграция со сторонними сервисами
+          </h2>
+          <p class="integration__descr">
+            Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.
+          </p>
+        </div>
+        <div class="integration__right">
+          <div class="integration__soc">
+            <div class="integration__soc-top">
+              <svg class="icon-top" width="70" height="70">
+                <use xlink:href="simbol.svg#facebook"></use>
+              </svg>
+              <svg class="icon-top" width="70" height="70">
+                <use xlink:href="simbol.svg#trello-plain-logo"></use>
+              </svg>
+              <svg class="icon-top" width="70" height="70">
+                <use xlink:href="simbol.svg#worklio"></use>
+              </svg>
+              <svg class="icon-top" width="70" height="70">
+                <use xlink:href="simbol.svg#dropbox"></use>
+              </svg>
+            </div>
+            <div class="integration__soc-bottom">
+              <svg class="icon-btm" width="70" height="70">
+                <use xlink:href="simbol.svg#google"></use>
+              </svg>
+              <svg class="icon-btm" width="70" height="70">
+                <use xlink:href="simbol.svg#trello-plain"></use>
+              </svg>
+              <svg class="icon-btm" width="70" height="70">
+                <use xlink:href="simbol.svg#slack"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
